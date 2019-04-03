@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background: rgb(2, 1, 53);
+    font-family: helvetica;
+    font-weight: 100;
+    font-size: 60px;
+    color: rgb(124, 11, 119);
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+:root {
+    --base: #EEC52E;
+    --spacing: 10px;
+    --blur: 10px;
+} /* ahora entendí qué era root*/
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.js {
+    color: var(--base);
+}
